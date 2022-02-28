@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ----------Playlist img and navigation bar {top} ------------------*/
+.playlist-img img{
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    position: absolute;
+    top: 40px;
+    left: 240px;
+    margin: 10px 5px;
+   
+}
+.playlist-img button{
+    background-color: blue;
+    border-radius: 12px;
+    padding: 30px 120px 30px 30px ;
+    
+}
+.playlist-img button a{
+    color: white;
+    align-items: center;
+}
+
+.playlist-img a{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-right a img{
+    position: absolute;
+    
+    
+}
+.nav-right a .setting-img{ 
+    left: 94%;
+    filter: invert(0.5);
+}
+.nav-right a .notification-img{
+    left: 97%;
+    filter: invert(0);
+}
+
+/* ---------Left side bar--------- */
+.left-sidebar{
+    background-color: #c3dfe4;
+    width: 15%;
+}
+.left-sidebar .nav-link{
+    padding:  10px 20px;
+    margin-left: 0px;
+    /* text-align: left; */
+    font-weight: 600;
+    font-size: 20px;
+}
+svg{
+    width: 40px;
+    height: 40px;
+    
+}
+/* ------ second-para and third-para */
+.second-para, .third-para{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+}
+.second-para h2, .third-para h2{
+    color: grey;
+    margin: 30px 0;
+}
+.second-para ul li, .third-para ul li{
+    margin: 12px 0;
+}
+/* -----------------second main body */
+
+.second-main{
+    width: 72%;
+    /* display: inline-block; */
+    margin: 3%;
+    position:absolute;
+    top: 9%;
+    left: 12%;
+}
+.article{
+    display: inline-block;
+    margin: 1rem 1rem;
+    width: 180px;
+}
+.article img{
+    border-radius: 20px;
+}
+.article h2{
+    font-weight: 800;
+    margin-top: 5%;
+    padding-top: 20px;
+}
+.article p{
+    color: grey;
+    font-weight: 600;
+}
+/* ---------Playlist menu---------- */
+.playlist-menu{
+    margin: 10px;
+
+}
+.playlist-menu span{
+    width: 50%;
+}
+/* .playlist-options{
+    display: inline-block;
+} */
+.playlist-menu h2{
+    margin: 20px 20px;
+    font-size: 40px;
+    font-weight: 600;
+    width: 50%;
+}
+.playlist-options-bar{
+    width: 60%;
+}
+/* media playling img */
+.playlist-options-bar a{
+    margin-left: 8%;
+    color: blue;
+}
+.playlist-options-bar a img{
+    width: 40px;
+    height: 40px;
+}
+/* right main container */
+.plalist-options-bar-right h2{
+    margin: 20px 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.plalist-options-bar-right{
+    width:50%;
+    position: absolute;
+    left: 62%;
+    top: 40%;
+}
+.plalist-options-bar-right span{
+    width: 300%;
+}
+.plalist-options-bar-right .text{
+    position: relative;
+    right: 122px;
+    top:18px;
+    color: #D1D1D1;
+    width: 400%;
+    margin: 5px;
+}
+
+.playlist-right-option div{
+    width: 150%;
+}
+/* .playlist-right-option a{
+    margin-left: 30%;
+} */
+/* media playing img */
+.playlist-right-option a img{
+    width: 250px;
+    height: 30px;
+    position: relative;
+    right: 30%;
+
+}
+
+/* ------Bottom section-------- */
+.bottom-section{
+    margin: 10px 220px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.bottom-section h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 20px;
+    /* padding: 10px 0; */
+}
+.bottom-section img{
+    width: 100px;
+    height: 90px;
+}
+.bottom-image{
+    float: left;
+    margin-right: 20px;
+}
+.bottom-section .article{
+    width: 21%;
+    margin: 50px 10px;
+}
+.bottom-section .article a{
+    color: blue;
+    margin-bottom: 50px;
+}
+.bottom-section .article h3{
+    font-weight: 800;
+}
+
+/* -------Right bar------ */
+.right-bar{
+    position: absolute;
+    right: 20px;
+    top: 15%;
+    padding: 5px;
+    border-left: 1px solid grey;
+}
+.right-bar img{
+    border-radius: 50%;
+    width: 80px;
+    height:80px;
+    margin: 40px ;
+}
+.first-image{
+    padding: 10px 20px;
+}
+.right-bar h3{
+    font-size: 20px;
+}
+/* .right-bar p{
+
+} */
