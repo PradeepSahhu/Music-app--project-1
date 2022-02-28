@@ -9,7 +9,11 @@
     <!----======== CSS ======== -->
     <link rel="stylesheet" href="styles.css">
 
+    <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/8180cf2185.js" crossorigin="anonymous"></script>
 
     
     
@@ -57,35 +61,35 @@
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class="fa-solid fa-gears"><i class="fa-solid fa-gears"></i></i>
+                            <i class="fa-solid fa-gears"></i>
                             <span class="text nav-text">Stations</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-bell icon'><i class="fa-solid fa-gears"></i></i>
+                            <i class="fa-solid fa-envelope"></i>
                             <span class="text nav-text">Inbox</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-pie-chart-alt icon' ><i class="fa-solid fa-gears"></i></i>
+                            <i class="fa-solid fa-envelope"></i>
                             <span class="text nav-text">Artists</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-heart icon' ><i class="fa-solid fa-gears"></i></i>
+                            <i class="fa-solid fa-envelope"></i>
                             <span class="text nav-text">Albums</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
                         <a href="#">
-                            <i class='bx bx-wallet icon' ><i class="fa-solid fa-gears"></i></i>
+                            <i class="fa-solid fa-envelope"></i>
                             <span class="text nav-text">Settings</span>
                         </a>
                     </li>
@@ -119,7 +123,7 @@
             <ul>
                 <li>
                     <a href="">
-                        <img src="images/design.png" alt="" width="20px" height="20px">
+                        <i class="fa-solid fa-envelope"></i>
                         <span> Animals</span>
                     </a>
                 </li>
@@ -224,7 +228,7 @@
                 <div class="playlist-options ">
                 
                 <div class="p-2 sm:w-1/2 w-full playlist-options-bar">
-                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center extended-bar">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                         <path d="M22 4L12 14.01l-3-3"></path>
@@ -239,7 +243,7 @@
                     </div>
                 </div>
                 <div class="p-2 sm:w-1/2 w-full playlist-options-bar">
-                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center extended-bar">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                         <path d="M22 4L12 14.01l-3-3"></path>
@@ -253,7 +257,7 @@
                     </div>
                 </div>
                 <div class="p-2 sm:w-1/2 w-full playlist-options-bar">
-                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center extended-bar">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                         <path d="M22 4L12 14.01l-3-3"></path>
@@ -267,7 +271,7 @@
                     </div>
                 </div>
                 <div class="p-2 sm:w-1/2 w-full playlist-options-bar">
-                    <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+                    <div class="bg-gray-100 rounded flex p-4 h-full items-center extended-bar">
                       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                         <path d="M22 4L12 14.01l-3-3"></path>
@@ -415,26 +419,40 @@
     <section class="right-bar">
         <div class="first-image">
             <img src="images/lisa-manoban.png" alt="">
-            <div>
+            <div class="text">
                 <h3>Mario Benthkar</h3>
                 <p>Dubai</p>
             </div>
         </div>
-        <!-- <div>
-            <a href="">Followers</a>
-            <a href="">Following</a>
-            <a href="">Likes</a>
-            <a href="">Playlist</a>
-        </div> -->
+        <div class="socials">
+            <li><a href=""><i class="fa-solid fa-chess-pawn"></i> Followers <span>250</span></a></li>
+            <li><a href=""><i class="fa-solid fa-users"></i>Following <span>300</span></a></li>
+            <li><a href=""><i class="fa-solid fa-heart-pulse"></i>Likes <span>130</span></a></li>
+            <li><a href=""><i class="fa-solid fa-user-music"></i>Playlist <span>007</span></a></li>
+            
+        </div>
 
-        <div>
-            <img src="" alt="">
-            <div>
-
+        <div class="second-image ">
+            <img src="images/tyuzu.jpg" alt="">
+            <div class="text">
+                <h3>Take it from me</h3>
+                <p>Jordan Davis</p>
             </div>
         </div>
 
+    
+        
+
     </section>
+    <section>
+        <div class="audio-player-container"> 
+            <a href="#"><img class="player-images"src="images/audio-back.png" alt=""></a>
+            <a href="#"><img class="player-images"src="images/audio-play.png" alt=""></a>
+            <a href="#"><img class="player-images"src="images/audio-forward.png"  alt=""></a>
+            
+        </div>
+    </section>
+    
     
     
 

@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
+/* ---------Universal------------ */
+i{
+    margin-right: 20px;
+}
 /* ----------Playlist img and navigation bar {top} ------------------*/
 .playlist-img img{
     width: 30px;
@@ -55,11 +60,7 @@
     font-weight: 600;
     font-size: 20px;
 }
-svg{
-    width: 40px;
-    height: 40px;
-    
-}
+
 /* ------ second-para and third-para */
 .second-para, .third-para{
     font-weight: 600;
@@ -119,6 +120,10 @@ svg{
 }
 .playlist-options-bar{
     width: 60%;
+}
+/* optional */
+.extended-bar{
+    width: 125%;
 }
 /* media playling img */
 .playlist-options-bar a{
@@ -204,23 +209,74 @@ svg{
 /* -------Right bar------ */
 .right-bar{
     position: absolute;
-    right: 20px;
+    right: 5px;
     top: 15%;
     padding: 5px;
     border-left: 1px solid grey;
 }
 .right-bar img{
     border-radius: 50%;
-    width: 80px;
-    height:80px;
-    margin: 40px ;
+    width: 100px;
+    height:100px;
+    margin: 40px 30px ;
 }
 .first-image{
     padding: 10px 20px;
 }
+.first-image .text, .second-image .text{
+    text-align: center;
+    font-weight: 600;
+}
 .right-bar h3{
     font-size: 20px;
 }
-/* .right-bar p{
+.right-bar p{
+    color: grey;
+}
+.right-bar .socials{
+    list-style: none;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 70px;
+}
+.right-bar .socials li{
+    margin-bottom: 20px;
+}
+.right-bar .socials span{
+    margin-left: 15px;
+    font-weight: 800;
+    text-align: end;
+}
+.right-bar .second-image img{
+    margin-top: 250px;
+    border: 3px solid blue;
+    padding: 20px;
+}
+/* half border */
+.right-bar .second-image img::after{
+    stroke-width: 3;
+  stroke-dasharray: 410; 
+   stroke-dashoffset: 0;
+  stroke-linecap: square;
+  transition: all .4s ease-out;
+}
 
-} */
+.second-image{
+    padding:10px 2px;
+}
+
+/* -----------Audio images------------ */
+.audio-player-container{
+    position: relative;
+    left: 88%;
+    bottom: 100px;
+    width: 10%;
+    padding-bottom: 100px;
+}
+.player-images{
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
+    display: inline-block;
+}
